@@ -41,3 +41,12 @@ with carbon_col:
 with monoxide_col:
     st.metric(label="Carbon-monoxide", value="32ppm", delta="-2.1%")
 st.markdown("<div style='margin-bottom :30px'></div>", unsafe_allow_html=True)
+
+st.line_chart(chart_data)
+level_col, risk_col = st.columns(2)
+with level_col:
+    st.markdown("<div style='margin-bottom :30px'></div>", unsafe_allow_html=True)
+    st.text("Oxygen Level : 12%")
+    st.text("Carbon-dioxide Level : 12%")
+    st.text("Carbon-monoxide Level : 12%")
+    
