@@ -15,8 +15,10 @@ SPIMOSI=
 #sensor pin numbers
 mq135_dpin=
 mq135_apin=
-
-
+def init():
+    GPIO.setwarnings(False)
+    GPIO.cleanup()		
+    GPIO.setmode(GPIO.BCM)		
 # st.markdown("<script src='https://kit.fontawesome.com/ad34c27ecf.js' crossorigin='anonymous'></script>")
 st.set_page_config(layout="wide" , page_icon="💬" , page_title="Air Quality Checker app")
 st.markdown("<h2 style='text-align: center; color: #ccc; margin-top : -85px; margin-bottom: 20px'>Air Quality Checker</h2>", unsafe_allow_html=True)
