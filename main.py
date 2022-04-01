@@ -42,6 +42,10 @@ with monoxide_col:
     st.metric(label="Carbon-monoxide", value="32ppm", delta="-2.1%")
 st.markdown("<div style='margin-bottom :30px'></div>", unsafe_allow_html=True)
 
+chart_data = pd.DataFrame(
+     np.random.randn(20, 3),
+     columns=['Oxygen', 'Carbon-dioxide', 'Carbon-monoxide'])
+
 st.line_chart(chart_data)
 level_col, risk_col = st.columns(2)
 with level_col:
@@ -49,4 +53,7 @@ with level_col:
     st.text("Oxygen Level : 12%")
     st.text("Carbon-dioxide Level : 12%")
     st.text("Carbon-monoxide Level : 12%")
+    
+    st.markdown("<div style='margin-bottom :30px'></div>", unsafe_allow_html=True)
+    st.subheader("Heartbeat rate : 56/s-")
     
