@@ -32,3 +32,5 @@ with profile_col:
     st.markdown("<p style='color: #ccc; font-size: 12px; margin-top: -15px'>Name : Kiton</p>", unsafe_allow_html=True)
     st.markdown("<p style='color: #ccc; font-size: 12px; margin-top: -20px'>Age : 30</p>", unsafe_allow_html=True)
 st.markdown("<div style='margin-bottom : 50px'></div>", unsafe_allow_html=True)
+
+
