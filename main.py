@@ -56,4 +56,8 @@ with level_col:
     
     st.markdown("<div style='margin-bottom :30px'></div>", unsafe_allow_html=True)
     st.subheader("Heartbeat rate : 56/s-")
+   
     
+with risk_col:
+    st.markdown("<h5 style='color: crimson; margin-top : 30px; margin-left: 40px; margin-bottom: 20px'>Risk Level: ⚠️</h5>", unsafe_allow_html=True)
+ 
