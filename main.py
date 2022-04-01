@@ -16,4 +16,10 @@ SPIMOSI=
 st.set_page_config(layout="wide" , page_icon="💬" , page_title="Air Quality Checker app")
 
 today = date.today()
-st.markdown("<h2 style='text-align: center; color: #ccc; margin-top : -85px; margin-bottom: 20px'>Air Quality Checker</h2>", unsafe_allow_html=True)
+
+# Getting Datetime from timestamp
+name_col,profile_col = st.columns([5,2])
+with name_col:
+    user_name = st.write("Hai Kiton,")
+with profile_col:
+    ("Date:", today)
