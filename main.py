@@ -33,4 +33,11 @@ with profile_col:
     st.markdown("<p style='color: #ccc; font-size: 12px; margin-top: -20px'>Age : 30</p>", unsafe_allow_html=True)
 st.markdown("<div style='margin-bottom : 50px'></div>", unsafe_allow_html=True)
 
-
+oxygen_col, carbon_col, monoxide_col = st.columns([3,3,1])
+with oxygen_col:
+    st.metric(label="Oxygen", value="69ppm", delta="1.2%")
+with carbon_col:
+    st.metric(label="Carbon-dioxide", value="110ppm", delta="-0.2%")
+with monoxide_col:
+    st.metric(label="Carbon-monoxide", value="32ppm", delta="-2.1%")
+st.markdown("<div style='margin-bottom :30px'></div>", unsafe_allow_html=True)
