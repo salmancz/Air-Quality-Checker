@@ -46,7 +46,37 @@ def readadc(adcnum, clockpin, mosipin, misopin, cspin:
 				GPIO.output(clockpin, False)
 
 		adcout = 0
+# read in one empty bit, one null bit and 10 ADC bits
+		for i in range(12):
+			GPIO.output(clockpin, True)
+			GPIO.output(clockpin, False)
+			adcout <<= 1
+			if (GPIO.input(misopin)):
+				adcout |= 0x1
+				GPIO.output(cspin, True)
+				adcout >>= 1      
+	    	return adcout
+#main ioop
+def main():
+	init()
+	print("please wait...")
+	time.sleep(20)
+	while True:
+		CO2level=readadc(mq135_apin, SPICLK, SPIMOSI, SPIMISO, SPICS)
+		if GPIO.input(mq135_dpin
+			print("Gas not leak")
+			time.sleep(0.5)
+		else:
+			print("The PPM Level \n",CO2level)
+			time.sleep(0.5)
+if __name__ =='__main__':
+	try:
+		main()
+		pass
+		except KeyboardInterrupt:
+			pass
 
+GPIO.cleanup()
 
 # st.markdown("<script src='https://kit.fontawesome.com/ad34c27ecf.js' crossorigin='anonymous'></script>")
 st.set_page_config(layout="wide" , page_icon="💬" , page_title="Air Quality Checker app")
