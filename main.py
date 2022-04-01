@@ -2,7 +2,10 @@
 import streamlit as st
 from datetime import date
 import Rpi.GPIO as GPIO
-
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import time
 
 #Raspberry pi gpio numbers
 SPICLK=
@@ -10,6 +13,8 @@ SPIMISO=
 SPICS=
 SPIMOSI=
 #sensor pin numbers
+mq135_dpin=
+mq135_apin=
 
 
 # st.markdown("<script src='https://kit.fontawesome.com/ad34c27ecf.js' crossorigin='anonymous'></script>")
