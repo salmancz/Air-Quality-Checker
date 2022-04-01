@@ -115,7 +115,7 @@ with level_col:
     st.text("Carbon-dioxide Level : 12%")
     st.text("Carbon-monoxide Level : 12%")
     
-    st.markdown("<div style='margin-bottom :30px'></div>", unsafe_allow_html=True)
+    
     st.subheader("Heartbeat rate : 56/s-")
    
     
