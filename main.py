@@ -8,13 +8,13 @@ import plotly.express as px
 import time
 
 #Raspberry pi gpio numbers
-SPICLK=
-SPIMISO=
-SPICS=
-SPIMOSI=
+SPICLK=11
+SPIMISO=9
+SPICS=8
+SPIMOSI=10
 #sensor pin numbers
-mq135_dpin=
-mq135_apin=
+mq135_dpin=37
+mq135_apin=0
 def init():
     GPIO.setwarnings(False)
     GPIO.cleanup()		
