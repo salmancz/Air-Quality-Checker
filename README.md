@@ -16,14 +16,15 @@ FEATURES:
    - compact and stylish Iot kit for current market
 
 Summary:
-        we learned many software and anroid app developing tools within a night and developed the Iot kit for the market.It is easyly portable and user friendly for everyone.we give a simple 2 hardware components in our box we have the QR code you can download our app in playstore link given by  
- and scan that code to pair your details with your mobile .We can ensure our consumer health and indimate the user to take a health check up      
+        we learned many software and anroid app developing tools within a night and developed the Iot kit for the market.It is easyly portable and user friendly for everyone.we give a simple 2 hardware components in our box we have the QR code you can download our app in playstore link given by https://quinn-airqc.glideapp.io/ 
+ and scan that code to pair your details with your mobile .We can ensure our consumer health and indimate the user to take a health check up.we also developed the product design foe that and we attach the few screenshots of our app interface and our product design....
+ <img width="610" alt="image" src="https://user-images.githubusercontent.com/94344904/161375394-e4882bfb-665f-4458-b772-55d82eb30c67.png">
   
   
-  
-  
-  
-  
+![img3](https://user-images.githubusercontent.com/94344904/161375572-f3c12b2a-48aa-4d0a-a29c-175ef6a2616e.jpeg)
+![img2](https://user-images.githubusercontent.com/94344904/161375573-7a05131f-7815-4f12-8a1d-f90f5af5556e.jpeg)
+![img1](https://user-images.githubusercontent.com/94344904/161375575-a2ca241b-6b5e-4bd5-8b93-d9e43fa76484.jpeg)
+
   
   
   
