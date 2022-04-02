@@ -1,4 +1,6 @@
 # HackOverFlow - Team QUINN
+
+## For Rasperry Pi
 import Rpi.GPIO as GPIO
 import time
 
@@ -72,5 +74,4 @@ if __name__ =='__main__':
 			pass
 
 GPIO.cleanup()
-
-
+	      
