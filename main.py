@@ -1,10 +1,5 @@
 # HackOverFlow - Team QUINN
-import streamlit as st
-from datetime import date
 import Rpi.GPIO as GPIO
-import pandas as pd
-import numpy as np
-import plotly.express as px
 import time
 
 #Raspberry pi gpio numbers
@@ -79,32 +74,3 @@ if __name__ =='__main__':
 GPIO.cleanup()
 
 
-# Getting Datetime from timestamp
-name_col,profile_col = st.columns([5,2])
-with name_col:
-    user_name = st.write("Hai Kiton,")
-with profile_col:
-    ("Date:", today)
-    st.markdown("<p style='color: #ccc; font-size: 12px; margin-top: -15px'>Name : Kiton</p>", unsafe_allow_html=True)
-    st.markdown("<p style='color: #ccc; font-size: 12px; margin-top: -20px'>Age : 30</p>", unsafe_allow_html=True)
-st.markdown("<div style='margin-bottom : 50px'></div>", unsafe_allow_html=True)
-
-oxygen_col, carbon_col, monoxide_col = st.columns([3,3,1])
-with oxygen_col:
-    st.metric(label="Oxygen", value="69ppm", delta="1.2%")
-with carbon_col:
-    st.metric(label="Carbon-dioxide", value="110ppm", delta="-0.2%")
-with monoxide_col:
-    st.metric(label="Carbon-monoxide", value="32ppm", delta="-2.1%")
-st.markdown("<div style='margin-bottom :30px'></div>", unsafe_allow_html=True)
-
-chart_data = pd.DataFrame(
-     np.random.randn(20, 3),
-     columns=['Oxygen', 'Carbon-dioxide', 'Carbon-monoxide'])
-
-
-   
-    
-with risk_col:
-    st.markdown("<h5 style='color: crimson; margin-top : 30px; margin-left: 40px; margin-bottom: 20px'>Risk Level: ⚠️</h5>", unsafe_allow_html=True)
- 
