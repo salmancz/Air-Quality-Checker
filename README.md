@@ -34,7 +34,7 @@ Summary:
   
   
   These are achieved with our team of techie minds 
-           * BALAJI P R         (1st year,CSBS)
-           * SIVA RAMANA H V    (1st year,AIDS)
-           * SALMAN A         (1st year,IT)
-           * JAAYARAAJADHANUS S (1st year,MECH)
+           - BALAJI P R         (1st year,CSBS)
+           - SIVA RAMANA H V    (1st year,AIDS)
+           - SALMAN A         (1st year,IT)
+           - JAAYARAAJADHANUS S (1st year,MECH)
