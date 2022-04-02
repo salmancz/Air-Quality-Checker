@@ -21,9 +21,8 @@ Summary:
  
 <img width="650" alt="image" src="https://user-images.githubusercontent.com/94344904/161375394-e4882bfb-665f-4458-b772-55d82eb30c67.png">
   
-<img width="650" alt="image" src="https://user-images.githubusercontent.com/94344904/161375572-f3c12b2a-48aa-4d0a-a29c-175ef6a2616e.jpeg">
-<img width="650" alt="image" src="https://user-images.githubusercontent.com/94344904/161375573-7a05131f-7815-4f12-8a1d-f90f5af5556e.jpeg">
-<img width="650" alt="image" src="https://user-images.githubusercontent.com/94344904/161375575-a2ca241b-6b5e-4bd5-8b93-d9e43fa76484.jpeg">
+<img width="240" height="400" alt="image" src="https://user-images.githubusercontent.com/94344904/161375572-f3c12b2a-48aa-4d0a-a29c-175ef6a2616e.jpeg"><img width="240" height="400" alt="image" src="https://user-images.githubusercontent.com/94344904/161375573-7a05131f-7815-4f12-8a1d-f90f5af5556e.jpeg">
+<img width="240" height="400" alt="image" src="https://user-images.githubusercontent.com/94344904/161375575-a2ca241b-6b5e-4bd5-8b93-d9e43fa76484.jpeg">
 
 
   
@@ -35,7 +34,7 @@ Summary:
   
   
   These are achieved with our team of techie minds 
-           . BALAJI P R         (1st year,CSBS)
-           . SIVA RAMANA H V    (1st year,AIDS)
-           . SALMAN A         (1st year,IT)
-           . JAAYARAAJADHANUS S (1st year,MECH)
+           - BALAJI P R         (1st year,CSBS)
+           - SIVA RAMANA H V    (1st year,AIDS)
+           - SALMAN A         (1st year,IT)
+           - JAAYARAAJADHANUS S (1st year,MECH)
